@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Personal Portfolio Website Design | @heresthecode</title>
+
+        <!--  FONT-AWeSOME  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!--  MAIN CSS  -->
+        <link rel="stylesheet" href="Style/styles.css">
+    </head>
+    <body>
+        <!--  header design  -->
+        <header class="header">
+            <a href="#" class="logo">Portfolio.</a>
+
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#services">Experience</a>
+                <a href="#portfolio">Portfolio</a>
+
+            </nav>
+        </header>
+
+        <!--  home section design  -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hi, I'm</h3>
+                <h1>Navait Kumar</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <p>Hello and Welcome! I'm a recent computer science graduate with a minor in math from Hunter College. I have a strong passion for software engineering and I'm actively seeking opportunities to apply and further develop my skills. My portfolio showcases my coding projects, and I'm constantly striving to learn and grow in this dynamic field. I'm excited to collaborate with others and contribute to meaningful projects. Thank you for visiting my portfolio website, and I look forward to connecting with you!</p>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/navait-kumar/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/nk0311" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:navaitk031@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <div class="home-img">
+                <img src="img/profiledp.png" alt="">
+            </div>
+        </section>
+
+
+                <!-- work experience section design -->
+        <section class="work-experience" id="services">
+            <h2 class="heading">My <span>Work Experience</span></h2>
+            <br>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h3>Programmer - AI Training</h3>
+                    <h4>Outlier</h4>
+                    <p>Remote</p>
+                    <p>Dec 2023 - Present</p>
+                    <p>Developed and trained generative AI models to significantly enhance reliability and accuracy for advanced code generation, achieving a notable performance boost by providing targeted code examples and leading rigorous evaluations in Python, JavaScript, C++, and Java for key clients, including OpenAI.</p>
+                    <p>Designed and implemented robust testing protocols for AI-generated code, enhancing reliability by 60% and ensuring compliance with stringent specifications, and applied Reinforcement Learning from Human Feedback (RLHF) to increase AI Chatbot coding efficiency.</p>
+                    <p>Tested and refined model outputs for code correctness and formatting, achieving a 90% consistency score, and adjusted prompts and responses to ensure an 80% alignment score for tasks from OpenAI and other clients.</p>
+
+                </div>
+
+            
+
+                <div class="services-box">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h3>Software Engineer Intern</h3>
+                    <h4>Mixspot</h4>
+                    <p>Remote</p>
+                    <p>Jul 2022 - Aug 2022</p>
+                    <p>Implemented over 30 comprehensive Python API tests for the RDBMS application, achieving complete endpoint coverage and significantly reducing production bugs by 15%. </p>
+                    <p>Collaborated with the QA team to understand and optimize crucial workflows within the RDBMS application, enhancing overall system efficiency and reducing error rates by 25%.</p>
+                    <p>Implemented a reusable Python test harness, boosting test efficiency by 20% across 50 cases, and used SQL to generate visualizations detailing performance metrics like availability, request breakdown, and error rates.</p>
+                </div>
+            </div>
+        </section>
+
+
+     
+
+     
+
+        <!--  services section design  -->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Latest <span>Projects</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="img/1.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>EazyCommerce</h4>
+                        <p>Web app using Django (backend), React with Redux (frontend), features user authentication, PayPal API, AWS S3 for images, PostgreSQL with AWS RDS for data, deployed on Heroku, tested with Postman.
+                            <br>
+                            #react
+                            #django
+                            #redux
+                            #aws
+                            #postgresSQL</p>
+                        <a href="https://github.com/nk0311/eazycommerce/tree/main/backend" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="img/2.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Motore</h4>
+                        <p>Created a cross-platform Flutter app for tracking car expenses, using Firebase for data, Google Auth for authentication, and Google Maps API for nearby gas stations, with a shop feature for purchasing car parts.
+                            <br>
+                            #dart with flutter
+                            #firebase
+                            #google auth</p>
+                        <a href="https://github.com/jabezj1/Motore" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+        <!--  TYPED JS  -->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <!--  SCROLL REVEAL  -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--  MAIN JS  -->
+        <script src="JS/main.js"></script>
+    </body>
+</html>
